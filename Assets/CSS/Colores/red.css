@@ -1,0 +1,35 @@
+:root {
+  --color-fondo: #ca3413;
+  --color-letra: #ffffff;
+}
+
+body {
+  background: url(/Assets/img/rojo.jpg);
+  background-attachment: fixed;
+  font-size: 1.5rem;
+}
+.global__logo {
+  background: var(--color-fondo);
+}
+.navbar__menu-buttons:hover {
+  background-color: var(--color-fondo);
+}
+.posts__button {
+  background-color: var(--color-fondo);
+}
+.sidebar__form input[type="submit"]:hover {
+  background-color: var(--color-fondo);
+}
+#acordeon .ui-accordion-header {
+  background: var(--color-fondo);
+  color: white;
+  border: none;
+}
+
+#acordeon .ui-accordion-header.ui-state-active {
+  background: #f96645;
+  border: none;
+}
+.content__clock-time{
+  background-color:var(--color-fondo) ;
+}

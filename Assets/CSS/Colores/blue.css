@@ -1,0 +1,33 @@
+:root {
+  --color-fondo: #1f87c4;
+  --color-letra: #ffffff;
+}
+
+body {
+  background: url(/Assets/img/cielo.jpg);
+  background-attachment: fixed;
+  font-size: 1.5rem;
+}
+.global__logo {
+  background: var(--color-fondo);
+}
+.navbar__menu-buttons:hover {
+  background-color: var(--color-fondo);
+}
+.posts__button {
+  background-color: var(--color-fondo);
+}
+.sidebar__form input[type="submit"]:hover {
+  background-color: var(--color-fondo);
+}
+#acordeon .ui-accordion-header {
+  background: var(--color-fondo);
+  color: white;
+}
+
+#acordeon .ui-accordion-header.ui-state-active {
+  background: #28b0fe;
+}
+.content__clock-time{
+  background-color:var(--color-fondo) ;
+}

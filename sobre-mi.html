@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="/Assets/CSS/estilos.css" />
+    <!--jquery-->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+
+    <!--Jquery UI-->
+    <link rel="stylesheet" href="/jquery-ui-1.13.2/jquery-ui.min.css" />
+    <link
+      rel="stylesheet"
+      href="/jquery-ui-1.13.2/jquery-ui.structure.min.css"
+    />
+    <link rel="stylesheet" href="/jquery-ui-1.13.2/jquery-ui.theme.min.css00" />
+
+    <script src="/jquery-ui-1.13.2/jquery-ui.min.js"></script>
+
+    <link id="theme" rel="stylesheet" href="/Assets/CSS/Colores/green.css" />
+
+    <title>Proyecto Web JS</title>
+  </head>
+  <body>
+    <!--BOTONERA DE COLORES-->
+    <div class="change__theme">
+      <div class="theme__green" id="green"></div>
+      <div class="theme__red" id="red"></div>
+      <div class="theme__blue" id="blue"></div>
+    </div>
+    <section class="contenedor__global">
+      <!--CABECERA-->
+
+      <header class="global__header">
+        <div class="global__logo">
+          <h1 class="logo__name">Proyecto js</h1>
+        </div>
+        <nav class="global__navbar">
+          <ul class="navbar__menu">
+            <li class="navbar__menu-links">
+              <a href="index.html" class="navbar__menu-buttons">Inicio</a>
+            </li>
+            <li class="navbar__menu-links">
+              <a href="/clock.html" class="navbar__menu-buttons">Reloj</a>
+            </li>
+            <li class="navbar__menu-links">
+              <a href="/contact.html" class="navbar__menu-buttons">Contacto</a>
+            </li>
+            <li class="navbar__menu-links">
+              <a href="/sobre-mi.html" class="navbar__menu-buttons">Sobre MI</a>
+            </li>
+          </ul>
+        </nav>
+      </header>
+
+      <!--Contenido-->
+
+      <section class="global__content">
+        <div class="content__box" id="">
+          <!--Acordeon-->
+          <h2 class="box__title">Sobre Nosotros</h2>
+          <div id="acordeon" class="box__accordion">
+            <h3 class="accordion__title">Quienes Somos</h3>
+            <div>
+                <p class="accordion__p">
+                  Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ea
+                  eligendi temporibus dignissimos officia unde, similique eius
+                  aliquid quasi possimus repudiandae id rerum non nemo, explicabo
+                  nihil. Quisquam eaque expedita sunt.
+                </p>
+            </div>
+            <h3 class="accordion__title">Nuestros servicios</h3>
+            <div>
+                <p class="accordion__p">
+                  Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ea
+                  eligendi temporibus dignissimos officia unde, similique eius
+                  aliquid quasi possimus repudiandae id rerum non nemo, explicabo
+                  nihil. Quisquam eaque expedita sunt.
+                </p>
+            </div>
+            <h3 class="accordion__title">Clientes</h3>
+            <div>
+                <p class="accordion__p">
+                  Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ea
+                  eligendi temporibus dignissimos officia unde, similique eius
+                  aliquid quasi possimus repudiandae id rerum non nemo, explicabo
+                  nihil. Quisquam eaque expedita sunt.
+                </p>
+            </div>
+          </div>
+        </div>
+
+        <!--SIDEBAR-->
+        <aside class="content__sidebar">
+          <div class="sidebar__about">
+            <h4 class="sidebar__user">
+              <span class="sidebar__user-font">Quien Soy</span>
+            </h4>
+            <img
+              src="/Assets/img/caracol.jpg"
+              alt="imagen caracol"
+              class="sidebar__img"
+            />
+            <p class="sidebar__p" id="about"></p>
+          </div>
+          <div class="sidebar__login">
+            <h4 class="sidebar__user">
+              <span class="sidebar__user-font">Identificate</span>
+            </h4>
+            <form action="" class="sidebar__form" id="login__form">
+              <label for="name" class="form__label">Nombre</label>
+              <input type="text" class="form__name" id="name" />
+              <label for="email" class="form__label">Correo</label>
+              <input type="text" class="form__email" id="email" />
+              <label for="name" class="form__label">Contraseña</label>
+              <input type="password" class="form__password" id="password" />
+              <input
+                type="submit"
+                class="form__button"
+                id="submit"
+                value="Entrar"
+              />
+            </form>
+          </div>
+        </aside>
+      </section>
+    </section>
+    <!--Pie De pafgina-->
+    <footer class="footer">
+      Hecho por Santiago Bejarano Web &copy;
+      <a href="#" class="footer__up">ir arriba</a>
+    </footer>
+    <script src="/Assets/js/main.js"></script>
+    <script src="/Assets/js/login.js"></script>
+  </body>
+</html>

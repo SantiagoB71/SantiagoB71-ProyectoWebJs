@@ -1,0 +1,33 @@
+:root {
+  --color-fondo: #235e3d;
+  --color-letra: #ffffff;
+}
+
+body {
+  background: url(/Assets/img/hojas.jpg);
+  background-attachment: fixed;
+  font-size: 1.5rem;
+}
+.global__logo {
+  background: var(--color-fondo);
+}
+.navbar__menu-buttons:hover {
+  background-color: var(--color-fondo);
+}
+.posts__button {
+  background-color: var(--color-fondo);
+}
+.sidebar__form input[type="submit"]:hover {
+  background-color: var(--color-fondo);
+}
+#acordeon .ui-accordion-header {
+  background: #235e3d;
+  color: white;
+}
+
+#acordeon .ui-accordion-header.ui-state-active {
+  background: #4ac27e;
+}
+.content__clock-time{
+  background-color:var(--color-fondo) ;
+}
